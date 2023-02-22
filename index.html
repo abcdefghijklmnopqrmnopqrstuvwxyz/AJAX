@@ -8,11 +8,34 @@
     </head>
     <body>
         <div>
-            <div>
-
+            <div class="text-success f-5 d-flex p-5">
+                <h2>Status: </h2>
+                <div class="h2 text-primary" id="status">&nbsp;</div>
             </div>
-            <div>
+            <div class="text-success f-5 d-flex px-5 py-1">
+                <h2>Progress: </h2>
+                <div class="h2 text-primary" id="progress">&nbsp;</div>
+            </div>
+        </div>
 
+        <div class="p-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col d-flex" id="cards">
+                    </div>
+                </div>
+            </div>
+            <div class="container border mt-5">
+                <table class="table caption-top">
+                    <caption>Data List</caption>
+                    <thead>
+                        <tr id="head">
+                            <th scope="col">#</th>
+                        </tr>
+                    </thead>
+                    <tbody id="body">
+                    </tbody>
+                </table>
             </div>
         </div>
 
